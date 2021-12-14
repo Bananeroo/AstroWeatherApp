@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+
+
+
+            <TextView
+                android:id="@+id/czas"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="NaN"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+
+
+
+            <TextView
+                android:id="@+id/miasto"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="Nazwa Miasta"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="Szerokość:\n"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+
+
+
+            <TextView
+                android:id="@+id/szerokosc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="NaN\n"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="Długość:\n"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+
+            <TextView
+                android:id="@+id/dlugosc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="NaN\n"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="Temperatura"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+
+
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="NaN"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="Ciśnienie"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+
+
+            <TextView
+                android:id="@+id/cisn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textSize="21sp"
+                android:text="nAN"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="0.5dp"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
